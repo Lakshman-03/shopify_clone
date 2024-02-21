@@ -1,0 +1,128 @@
+
+
+
+*{
+    margin: 0;
+
+}
+svg{
+    margin-top: 20px;
+}
+
+.body1{
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100vh;
+    background-color: #018060;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 10px;
+    font-family: sans-serif;
+    
+}
+.body2{
+    height: 100vh;
+    background-image: url(./New\ Project.png);
+}
+h1{
+    font-family: 'DM sans';
+    font-size: 240%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+}
+input{
+    width: 60%;
+    height: 33px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+.body1>div{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+.body1>*{
+    margin-top: 25px;
+}
+
+#but1{
+    margin-right: 2px;
+    font-size: medium;
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    width: 62%;
+    height: 50px;
+    background-color: black;
+}
+#but1:hover{
+    cursor: pointer;
+    background-color: rgb(47, 47, 47);
+}
+#but1:active{
+    background-color: rgb(83, 82, 82);
+}
+  @media (min-width:900px) and (max-width:1920px) {
+    h1{
+        font-size: 350%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 50px;
+        width: 60%;
+    }
+    .body1>div{
+        border-radius: 50px;
+        width: auto;
+        background-color: white;
+        flex-direction: row;
+    }
+    input{
+        width: 200px;
+    }
+  }
+ 
+
+  .body2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card{
+    height: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card>img{
+    width: 90%;
+    max-width: 550px;
+    background-color: red;
+  }
+
+ .grid1{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    gap: 20px;
+    
+ }
+ .grid1>div{
+    width: 300px;
+ }
+ 
+ .grid1>div>h3{
+    font-size: larger;
+ }
